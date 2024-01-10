@@ -13,16 +13,29 @@ npm install --save oc-yoshi-modal-lib
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-import MyComponent from 'oc-yoshi-modal-lib'
+import { SimpleModal } from 'oc-yoshi-modal-lib'
 import 'oc-yoshi-modal-lib/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div>
+      <h1>Basic Page</h1>
+      <button onClick={() => setIsOpen(true)}>Open Modal</button>
+      {isOpen ? (
+        <SimpleModal
+          onClickHandler={() => setIsOpen(false)}
+          text='Employee Created!'
+        />
+      ) : null}
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
