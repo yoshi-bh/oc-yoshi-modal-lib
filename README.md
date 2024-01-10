@@ -1,6 +1,6 @@
 # oc-yoshi-modal-lib
 
-> Simple library to display text in a modal (part of a school project)
+> React Library to add modals to your projects (part of a project for studies)
 
 [![NPM](https://img.shields.io/npm/v/oc-yoshi-modal-lib.svg)](https://www.npmjs.com/package/oc-yoshi-modal-lib) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
