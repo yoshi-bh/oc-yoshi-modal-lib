@@ -16,7 +16,7 @@
 ## Install
 
 ```bash
-npm install --save oc-yoshi-modal-lib
+npm install --save oc-yoshi-modal-lib --force
 ```
 
 ## Usage
