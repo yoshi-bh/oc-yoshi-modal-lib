@@ -11,7 +11,7 @@
 
 - Easy to use: incredibly simple to setup a modal quickly
 - Custom text: you can customize the text of the modal to your liking
-- Custom eventHandler: you can decide what happens when the modal button is clicked to close it
+- Custom eventHandler: you can decide what happens when the modal button is clicked
 
 ## Install
 
